@@ -1,0 +1,31 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "test study",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mocha": "mocha -d test/test.js",
+    "cover": "istanbul cover _mocha --reporter test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/labixiaolliu/testing.git"
+  },
+  "keywords": [
+    "test",
+    "mocha",
+    "chai"
+  ],
+  "author": "damon chen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/labixiaolliu/testing/issues"
+  },
+  "homepage": "https://github.com/labixiaolliu/testing#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^7.1.2"
+  }
+}
