@@ -27,7 +27,7 @@
     "benchmark": "^2.1.4",
     "chai": "^4.2.0",
     "istanbul": "^0.4.5",
-    "mocha": "^7.1.2"
+    "mocha": "^10.2.0"
   },
   "dependencies": {
     "selenium-webdriver": "^4.0.0-alpha.7"
